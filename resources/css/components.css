@@ -1,0 +1,38 @@
+.attachment  img{
+    @apply !mx-auto md:w-4/5 md:h-96
+}
+
+.attachment__caption{
+    @apply text-center text-lg
+}
+
+.fi-in-text-item ul{
+    @apply list-disc list-inside text-lg
+}
+
+.fi-in-text-item ol{
+    @apply list-decimal list-inside text-lg
+}
+
+.fi-in-text-item li:first-letter{
+    @apply capitalize
+}
+
+.fi-in-text-item h2{
+    @apply text-2xl mb-2 font-bold
+}
+.fi-in-text-item h3{
+    @apply text-xl mb-2 font-bold
+}
+
+.fi-in-text-item p{
+    @apply text-lg mt-2
+}
+
+.post > :not(p) {
+    @apply hidden;
+}
+
+.fi-in-text-item a{
+    @apply text-blue-600 
+}
